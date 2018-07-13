@@ -1,0 +1,172 @@
+.section-locations {
+  margin: 0 auto;
+  height: 100vh;
+
+  img {
+    margin: 0 auto;
+    width: 700px;
+    height: 450px;
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+  }
+
+  h2, h3 {
+    text-align: center;
+  }
+}
+
+
+
+
+.slide-fade-enter {
+  transform: translateY(-40px);
+  opacity: 0;
+}
+
+.slide-fade-leave-to {
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+// FAQ SECTION FAQ SECTION FAQ SECTION //
+
+.section-faq {
+
+  height: 100vh;
+
+  img {
+    height: 400px;
+    width: 600px;
+    margin: 40px auto;
+    display: block;
+  }
+div#status{
+  position: fixed;
+  font-size: 20px;
+}
+
+div#wrap{
+  width: 800px; margin: 0 auto
+}
+
+div.newData{
+    height: 100px;
+    background: #09F;
+    margin: 10px 0;
+}
+}
+
+
+// DOCTOR DOCTOR DOCTOR DOCTOR DOCTORS //
+.sections-doctors{
+
+  height: 100vh
+
+    h3 {
+      text-align: center;
+       }
+
+    .doctorPortal {
+    width: 850px;
+    height: 500px;
+    margin: 3em auto;
+    display: block;
+    border-radius: 1em;
+
+  }
+
+
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 5em;
+      margin: 0 auto;
+      display: block;
+
+    }
+
+}
+
+// OUR STAFF OUR STAFF OUR STAFF OUR STAFF //
+
+.section-staff {
+  height: 100vh;
+  text-align: center;
+
+  img {
+    width: 900px;
+    height: 550px;
+    margin: 3em auto;
+    display: block;
+  }
+
+
+}
+
+.section-media {
+  text-align: center;
+  height: 100vh;
+
+  img {
+    width: 800px;
+    height: 500px;
+    margin: 3em auto;
+    display: block;
+  }
+
+  .media-link {
+    color: rgb(0,107,182);
+  }
+}
+
+.section-about {
+  background: #fff;
+  padding: 75px 75px 120px 75px;
+  // padding-top: 40px;
+  // padding-bottom: 120px;
+  // padding-left: 75px;
+  // padding-right: 75px;
+
+
+ h3, p, {
+  margin: 0 auto;
+  width: 65%;
+  display: block;
+  text-align: center;
+
+
+}
+
+ .fas {
+   color: $secondary-color;
+   margin: 20px auto;
+   display: block;
+   text-align: center;
+   padding-top: 50px;
+ }
+
+  h1 {
+    // padding: 75px;
+    text-align: center;
+    width: 30%;
+    border-bottom: 3px solid $primary-color;
+    margin: 0 auto;
+
+}
+
+
+}
+
+
+
+
+
+/* how long VUE VUE VUE VUE transition will take */
+.slide-fade-enter-active {
+  transition: 1s ease;
+}
+.slide-fade-leave-active {
+  transition: 1s ease;
+}
